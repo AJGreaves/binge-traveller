@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Open+Sans&display=swap');
+
+:root {
+    --heading-font : 'Bowlby One SC', cursive;
+    --standard-font: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--standard-font);
+}
+
+h1 {
+    font-family: var(--heading-font);
+}

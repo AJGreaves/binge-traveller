@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Open+Sans&display=swap');
 
 :root {
-    --heading-font : 'Bowlby One SC', cursive;
+    --heading-font: 'Bevan', cursive;
     --standard-font: 'Open Sans', sans-serif;
 }
 
@@ -11,4 +11,27 @@ body {
 
 h1 {
     font-family: var(--heading-font);
+    font-size: 5rem;
+    line-height: 0.3;
+    color: black;
+}
+
+i {
+    vertical-align: top;
+}
+
+#logo {
+    /* css for v2 logo */
+    /* width: 130px; */
+    /*
+    -- css for v1 of logo -- */
+    width: 90px;
+    margin-top: 28px;
+    margin-right: 5px; 
+}
+
+.bottle {
+    height: 100px;
+    vertical-align: baseline;
+    margin: 0 5px;
 }

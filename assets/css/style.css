@@ -54,6 +54,14 @@ h1#main-heading {
     text-align: center;
 }
 
-.fab.fa-instagram {
+.fab.fa-facebook-square {
+    color: #3b5998; 
+}
 
+.fab.fa-youtube-square {
+    color: #c4302b;
+}
+
+.fab.fa-instagram-square {
+    color: #f58529
 }

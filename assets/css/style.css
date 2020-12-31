@@ -5,9 +5,13 @@
     --standard-font: 'Spinnaker', sans-serif;
 }
 
-/* containers */
+/* navbar and containers */
 body {
     font-family: var(--standard-font);
+}
+
+.nav-link {
+    padding: .7rem 1rem;
 }
 
 /* headings and fonts */
@@ -24,7 +28,7 @@ h1#main-heading {
     line-height: .9;
 }
 
-/* logos and images */
+/* logos, icons and images */
 
 #nav-logo {
     height: 40px;
@@ -42,4 +46,14 @@ h1#main-heading {
     height: 60px;
     vertical-align: baseline;
     margin: 0 5px;
+}
+
+.nav-social-media-icon {
+    font-size: 2rem;
+    width: 40px;
+    text-align: center;
+}
+
+.fab.fa-instagram {
+
 }

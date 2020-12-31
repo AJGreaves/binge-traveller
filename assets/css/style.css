@@ -1,37 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&family=Spinnaker:wght@300;500;700&display=swap');
 
 :root {
-    --heading-font: 'Bevan', cursive;
-    --standard-font: 'Open Sans', sans-serif;
+    --heading-font: 'Jura', sans-serif;
+    --standard-font: 'Spinnaker', sans-serif;
 }
 
+/* containers */
 body {
     font-family: var(--standard-font);
 }
 
-h1 {
+/* headings and fonts */
+h1#main-heading {
     font-family: var(--heading-font);
     font-size: 5rem;
-    line-height: 0.3;
+    line-height: 0.9;
     color: black;
+    margin-top: 20px;
 }
 
-i {
-    vertical-align: top;
+/* logos and images */
+
+#nav-logo {
+    height: 40px;
+    margin-right: 12px;
 }
 
 #logo {
-    /* css for v2 logo */
-    /* width: 130px; */
-    /*
-    -- css for v1 of logo -- */
     width: 90px;
     margin-top: 28px;
     margin-right: 5px; 
 }
 
 .bottle {
-    height: 100px;
+    height: 60px;
     vertical-align: baseline;
     margin: 0 5px;
 }

@@ -19,11 +19,17 @@ h1#main-heading {
     margin-top: 20px;
 }
 
+#navbar-brand {
+    font-family: var(--heading-font);
+    line-height: .9;
+}
+
 /* logos and images */
 
 #nav-logo {
     height: 40px;
-    margin-right: 12px;
+    margin: 0 12px;
+    float: left;
 }
 
 #logo {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&family=Spinnaker:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&family=Spinnaker&display=swap');
 
 :root {
     --heading-font: 'Jura', sans-serif;
@@ -25,19 +25,17 @@ h1#main-heading {
     font-family: var(--heading-font);
     font-size: 5rem;
     line-height: 0.9;
-    color: black;
     margin-top: 20px;
 }
 
-#navbar-brand {
-    font-family: var(--heading-font);
-    line-height: .9;
+#tagline {
+    font-size: 2rem;
 }
 
-/* logos, icons and images */
+/* logos and icons */
 
 #nav-logo {
-    height: 40px;
+    height: 50px;
     margin: 0 12px;
     float: left;
 }
@@ -70,4 +68,27 @@ h1#main-heading {
 
 .fab.fa-instagram-square {
     color: #f58529
+}
+
+/* navbar */
+
+#navbar-brand {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    line-height: 1;
+    width: 200px;
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+}
+
+/* images */
+
+#hero-home {
+    height: 100vh;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 80%;
 }

@@ -5,6 +5,7 @@
     --standard-font: 'Spinnaker', sans-serif;
     --blue: #4285f4;
     --blue-hover: #3a76d6;
+    --med-grey: #8a9cb4;
 }
 
 /* navbar and containers */
@@ -102,10 +103,23 @@ h1#main-heading {
 
 /* images */
 
-#hero-home {
+.hero-img {
     height: 100vh;
-    background-image: url('../img/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#hero-home {
+    background-image: url('../img/hero.jpg');
     background-position: center 80%;
+}
+
+#sea-bg {
+    background-image: url('../img/sea.jpg');
+    background-position: center center;
+}
+
+#sea-overlay {
+    height: 100%;
+    background-color: rgba(150, 185, 241, 0.7)
 }

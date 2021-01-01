@@ -3,6 +3,8 @@
 :root {
     --heading-font: 'Jura', sans-serif;
     --standard-font: 'Spinnaker', sans-serif;
+    --blue: #4285f4;
+    --blue-hover: #3a76d6;
 }
 
 /* navbar and containers */
@@ -19,6 +21,10 @@ body {
     margin-left: 2rem;
 }
 
+#about .col-12 {
+    min-height: 500px;
+}
+
 
 /* headings and fonts */
 h1#main-heading {
@@ -30,6 +36,10 @@ h1#main-heading {
 
 #tagline {
     font-size: 2rem;
+}
+
+.text-large {
+    font-size: 1.5rem;
 }
 
 /* logos and icons */
@@ -68,6 +78,18 @@ h1#main-heading {
 
 .fab.fa-instagram-square {
     color: #f58529
+}
+
+/* buttons */
+
+.btn-blue {
+    background-color: var(--blue);
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: var(--blue-hover);
+    color: white;
 }
 
 /* navbar */

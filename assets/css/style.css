@@ -21,11 +21,6 @@ body {
     margin-left: 2rem;
 }
 
-#about .col-12 {
-    min-height: 500px;
-}
-
-
 /* headings and fonts */
 h1#main-heading {
     font-family: var(--heading-font);

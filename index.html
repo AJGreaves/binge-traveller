@@ -113,27 +113,40 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="display-4 my-4">Instagram</h2>
+    <div class="container pt-5">
+        <div class="row pb-3 pb-md-5 text-center">
+            <!-- Instagram heading and button, visible on xl screens and up, displays to the side. -->
+            <div id="insta-lead-xl-screens" class="col-12 col-xl-6 d-none d-xl-block">
+                <h2 class="display-4 mb-4">Find me on<br>Instagram</h2>
+                <a class="btn btn-lg btn-blue mt-3" href="https://www.instagram.com/mike_murtagh" target="_blank">Follow
+                    me</a>
             </div>
-            <div class="col-12 insta-tiles-wrapper">
-                <div class="insta-row">
-                    <div class="insta-square"></div>
-                    <div class="insta-square"></div>
-                    <div class="insta-square"></div>
-                </div>
-                <div class="insta-row">
-                    <div class="insta-square"></div>
-                    <div class="insta-square"></div>
-                    <div class="insta-square"></div>
-                </div>
-                <div class="insta-row">
-                    <div class="insta-square"></div>
-                    <div class="insta-square"></div>
-                    <div class="insta-square"></div>
-                </div>
+
+            <div class="col-12 col-xl-6 insta-tiles-wrapper">
+                <!-- Instagram heading displays above images grid on lg screens and down -->
+                <h2 class="display-4 my-4 d-xl-none">Find me on<br>Instagram</h2>
+                <a href="https://www.instagram.com/mike_murtagh/" target="_blank"
+                    aria-label="Visit my instagram (opens in a new tab)">
+                    <div class="insta-row">
+                        <div id="insta-pic-paphos" class="insta-square"></div>
+                        <div id="insta-pic-mostar" class="insta-square">
+                        </div>
+                        <div id="insta-pic-sofia" class="insta-square"></div>
+                    </div>
+                    <div class="insta-row">
+                        <div id="insta-pic-dublin" class="insta-square"></div>
+                        <div id="insta-pic-warsaw" class="insta-square"></div>
+                        <div id="insta-pic-polish-airlines" class="insta-square"></div>
+                    </div>
+                    <div class="insta-row">
+                        <div id="insta-pic-warsaw2" class="insta-square"></div>
+                        <div id="insta-pic-warsaw3" class="insta-square"></div>
+                        <div id="insta-pic-helsinki" class="insta-square"></div>
+                    </div>
+                </a>
+                <!-- Instagram button displays above images grid on lg screens and down -->
+                <a class="btn btn-lg btn-blue mt-3 d-xl-none" href="https://www.instagram.com/mike_murtagh"
+                    aria-label="Visit my instagram (opens in a new tab)" target="_blank">Follow me</a>
             </div>
         </div>
     </div>

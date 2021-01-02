@@ -45,6 +45,14 @@ h4 {
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* logos and icons */
 
 #nav-logo {
@@ -138,9 +146,50 @@ h4 {
 .insta-square {
     width: 85px;
     height: 85px;
-    background-color: grey;
+    background-color: var(--med-grey);
     margin: 2px;
     display: inline-block;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#insta-pic-paphos {
+    background-image: url('../img/paphos-sunset.JPG');
+}
+
+#insta-pic-mostar {
+    background-image: url('../img/mostar.jpg');
+}
+
+#insta-pic-sofia {
+    background-image: url('../img/sofia.JPG');
+}
+
+#insta-pic-dublin {
+    background-image: url('../img/dublin.png');
+    background-position: center 100%;
+}
+
+#insta-pic-warsaw {
+    background-image: url('../img/warsaw.JPG');
+    background-position: center 100% ;
+}
+
+#insta-pic-polish-airlines {
+    background-image: url('../img/polish-airlines.png');
+}
+
+#insta-pic-warsaw2 {
+    background-image: url('../img/warsaw2.png');
+}
+
+#insta-pic-warsaw3 {
+    background-image: url('../img/warsaw3.png');
+}
+
+#insta-pic-helsinki {
+    background-image: url('../img/helsinki.png');
 }
 
 /* video iframe */
@@ -167,10 +216,39 @@ h4 {
 
 /* Media queries */
 
+/* Mini devices (landscape phones, 400px and up) */
+@media (min-width: 400px) {
+    .insta-square {
+        width: 110px;
+        height: 110px;
+    }
+}
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .insta-square {
+        width: 150px;
+        height: 150px;
+    }
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .insta-square {
+        width: 200px;
+        height: 200px;
+    }
+}
 
-/* Extra large screens */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .insta-square {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
     h1#main-heading {
@@ -195,5 +273,9 @@ h4 {
     #sea-overlay {
         padding-top: 3%;
         /* Adjusts padding above the video to a responsive amount. */
+    }
+
+    #insta-lead-xl-screens {
+        margin-top: 7%;
     }
 }

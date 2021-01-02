@@ -24,17 +24,17 @@ body {
 
 /* headings and fonts */
 h1#main-heading {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 0.9;
     margin-top: 20px;
 }
 
 #tagline {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .text-large {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h1,
@@ -131,6 +131,18 @@ h4 {
     padding-bottom: 3rem;
 }
 
+.insta-row {
+    text-align: center;
+}
+
+.insta-square {
+    width: 85px;
+    height: 85px;
+    background-color: grey;
+    margin: 2px;
+    display: inline-block;
+}
+
 /* video iframe */
 
 /* Code taken for responsive iframe from: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
@@ -155,8 +167,28 @@ h4 {
 
 /* Media queries */
 
+
+
+
+/* Extra large screens */
 @media (min-width: 1200px) {
-    #sea-bg, #sea-overlay {
+
+    h1#main-heading {
+        font-size: 5rem;
+        line-height: 0.9;
+        margin-top: 20px;
+    }
+
+    #tagline {
+        font-size: 2rem;
+    }
+
+    .text-large {
+        font-size: 1.5rem;
+    }
+
+    #sea-bg,
+    #sea-overlay {
         min-height: 100vh;
     }
 

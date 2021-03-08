@@ -91,6 +91,24 @@ a:hover {
     color: #f58529
 }
 
+.mobile-social-icons .nav-social-media-icon {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.social-icons-wrapper {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+}
+
+.mobile-social-icons .fab.fa-facebook-square,
+.mobile-social-icons .fab.fa-youtube-square,
+.mobile-social-icons .fab.fa-instagram-square {
+    color: white;
+}
+
 /* buttons */
 
 .btn-blue {

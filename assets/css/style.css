@@ -241,7 +241,6 @@ a:hover {
 /* Footer */
 #footer {
     background: var(--blue);
-    height: 90px;
     text-align: center;
     padding: 30px;
     color: white;
@@ -250,6 +249,18 @@ a:hover {
 
 #footer a {
     color: white;
+}
+
+#footer hr {
+    width: 400px;
+    margin: 20px auto;
+    border: 2px solid white;
+}
+
+#footer .nav-social-media-icon {
+    display: inline-block;
+    font-size: 3rem;
+    width: 50px;
 }
 
 /* Media queries */

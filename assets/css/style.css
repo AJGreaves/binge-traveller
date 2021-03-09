@@ -232,6 +232,16 @@ a:hover {
     height: 100%;
 }
 
+/* Map */
+
+.map-section {
+    background: lightblue;
+}
+
+#map {
+    height: 80vh;
+}
+
 /* Media queries */
 
 /* Mini devices (landscape phones, 400px and up) */

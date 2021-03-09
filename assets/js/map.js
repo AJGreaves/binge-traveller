@@ -31,7 +31,7 @@ let illinois = L.marker([40.6331, -89.3985]).addTo(mymap);
 let moldova = L.marker([47.0105, 28.8638]).addTo(mymap);
 let ontario = L.marker([51.2538, -85.3232]).addTo(mymap);
 let southAfrica = L.marker([-30.5595, 22.9375]).addTo(mymap);
-let ireland = L.marker([53.1424, 7.6921]).addTo(mymap);
+let ireland = L.marker([53.1424, -7.6921]).addTo(mymap);
 let switzerland = L.marker([46.8182, 8.2275]).addTo(mymap);
 let finland = L.marker([61.9241, 25.7482]).addTo(mymap);
 let ukraine = L.marker([48.3794, 31.1656]).addTo(mymap);
@@ -60,9 +60,9 @@ let lithuania = L.marker([55.1694, 23.8813]).addTo(mymap);
 // popup contents
 
 california.bindPopup("<strong>California</strong><br>Alcatraz,<br>San Francisco,<br>UC Berkeley").openPopup();
-texas.bindPopup("<strong>Texas</strong>Austin,<br>Amarillo,<br>Dallas,<br>San Antonio");
+texas.bindPopup("<strong>Texas</strong><br>Austin,<br>Amarillo,<br>Dallas,<br>San Antonio");
 netherlands.bindPopup("<strong>Netherlands</strong><br>Amsterdam,<br>Eindhoven,<br>Rotterdam");
-greece.bindPopup("<strong>Greece</strong>Athens,<br>Delphi,<br>Mykonos");
+greece.bindPopup("<strong>Greece</strong><br>Athens,<br>Delphi,<br>Mykonos");
 spain.bindPopup("<strong>Spain</strong><br>Barcelona,<br>Bilbao,<br>Seville");
 italy.bindPopup(
     `<strong>Italy</strong><br>
@@ -120,3 +120,4 @@ newfoundland.bindPopup("<strong>Newfoundland</strong><br>St John's");
 malta.bindPopup("<strong>Malta</strong><br>Valletta");
 norway.bindPopup("<strong>Norway</strong><br>Oslo");
 lithuania.bindPopup("<strong>Lithuania</strong><br>Vilnius");
+czechRepublic.bindPopup("<strong>Czech Republic</strong><br>Prague");

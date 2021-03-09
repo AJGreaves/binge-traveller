@@ -238,6 +238,20 @@ a:hover {
     height: 80vh;
 }
 
+/* Footer */
+#footer {
+    background: var(--blue);
+    height: 90px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#footer a {
+    color: white;
+}
+
 /* Media queries */
 
 /* Mini devices (landscape phones, 400px and up) */

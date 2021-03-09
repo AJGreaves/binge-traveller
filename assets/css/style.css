@@ -144,7 +144,7 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-#sea-bg {
+.sea-bg {
     background-image: url('../img/sea.jpg');
     background-position: center center;
     background-size: cover;
@@ -233,10 +233,6 @@ a:hover {
 }
 
 /* Map */
-
-.map-section {
-    background: lightblue;
-}
 
 #map {
     height: 80vh;

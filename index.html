@@ -206,7 +206,18 @@
                 <h2 class="display-4 mb-4 text-center">Get in touch with me!</h2>
             </div>
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-                <form>
+                <!--
+                    Form sends data to email js. name attribute values must match *exactly* the
+                    template variable names in curly brackets in the email js template 
+                    https://dashboard.emailjs.com/admin/templates/4sdxx4l
+                    
+                    for example: 
+                    in HTML
+                    name="f_name"
+                    in emailjs template
+                    {{f_name}}
+                -->
+                <form id="contact-form">
                     <div class="row g-3">
                         <div class="col-6">
                             <label for="f_name" class="form-label">First Name <span>*</span></label>
@@ -224,7 +235,8 @@
                         </div>
                         <div class="col-6">
                             <label for="handle" class="form-label">Social Media Handle</label>
-                            <input type="text" class="form-control" id="handle" name="handle" aria-describedby="socialHelp">
+                            <input type="text" class="form-control" id="handle" name="handle"
+                                aria-describedby="socialHelp">
                             <div id="socialHelp" class="form-text">Instagram or Facebook</div>
                         </div>
                         <div class="col-6">
@@ -233,7 +245,7 @@
                         </div>
                         <div class="col-12">
                             <label for="message" class="form-label">Message <span>*</span></label>
-                        <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
+                            <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary mt-4">Submit</button>
@@ -279,8 +291,20 @@
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
 
+    <!-- emailjs scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function () {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_UG0O4RX2xfTsyhYDrfoFl');
+        })();
+    </script>
+
     <!-- Custom JS for map -->
     <script src="assets/js/map.js"></script>
+
+    <!-- Custom script for emailjs -->
+    <script src="assets/js/email.js"></script>
 
 </body>
 

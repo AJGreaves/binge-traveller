@@ -26,7 +26,6 @@ let slovakia = L.marker([48.6690, 19.6990]).addTo(mymap);
 let romania = L.marker([45.9432, 24.9668]).addTo(mymap);
 let hungary = L.marker([47.1625, 19.5033]).addTo(mymap);
 let denmark = L.marker([56.2639, 9.5018]).addTo(mymap);
-let sicily = L.marker([37.6000, 14.0154]).addTo(mymap);
 let illinois = L.marker([40.6331, -89.3985]).addTo(mymap);
 let moldova = L.marker([47.0105, 28.8638]).addTo(mymap);
 let ontario = L.marker([51.2538, -85.3232]).addTo(mymap);
@@ -56,32 +55,50 @@ let newfoundland = L.marker([53.1355, -57.6604]).addTo(mymap);
 let malta = L.marker([35.9375, 14.3754]).addTo(mymap);
 let norway = L.marker([60.4720, 8.4689]).addTo(mymap);
 let lithuania = L.marker([55.1694, 23.8813]).addTo(mymap);
+let belgium = L.marker([50.5039, 4.4699]).addTo(mymap);
+let monaco = L.marker([43.7384, 7.4246]).addTo(mymap);
+let estonia = L.marker([58.5953, 25.0136]).addTo(mymap);
+let massachusetts = L.marker([42.4072, -71.3824]).addTo(mymap);
+let newYork = L.marker([40.7128, -74.0060]).addTo(mymap);
+
 
 // popup contents
 
-california.bindPopup("<strong>California</strong><br>Alcatraz,<br>San Francisco,<br>UC Berkeley").openPopup();
+newYork.bindPopup("<strong>New York</strong><br>New York City");
+massachusetts.bindPopup("<strong>Massachusetts</strong><br>Boston");
+california.bindPopup(
+    `<strong>California</strong><br>
+    Alcatraz,<br>
+    San Francisco,<br>
+    UC Berkeley,<br>
+    Los Angeles,,<br>
+    Santa Monica`
+    ).openPopup();
 texas.bindPopup("<strong>Texas</strong><br>Austin,<br>Amarillo,<br>Dallas,<br>San Antonio");
 netherlands.bindPopup("<strong>Netherlands</strong><br>Amsterdam,<br>Eindhoven,<br>Rotterdam");
 greece.bindPopup("<strong>Greece</strong><br>Athens,<br>Delphi,<br>Mykonos");
-spain.bindPopup("<strong>Spain</strong><br>Barcelona,<br>Bilbao,<br>Seville");
+spain.bindPopup("<strong>Spain</strong><br>Barcelona,<br>Bilbao,<br>Seville,<br>Lanzarote");
 italy.bindPopup(
     `<strong>Italy</strong><br>
-    Bay of Naples,<br>
+    Naples,<br>
     Milan,<br>
     Mount Versuvius,<br>
     Naples,<br>
     Pisa,<br>
     Pompeii,<br>
-    Rome`
+    Rome,<br>
+    Catania,<br>
+    Mount Etna,<br>
+    Taormina,<br>
+    Venice`
     );
-germany.bindPopup("<strong>Germany</strong><br>Berlin,<br>Munich");
+germany.bindPopup("<strong>Germany</strong><br>Berlin,<br>Munich,<br>Hamburg,<br>Dusseldorf");
 iceland.bindPopup("<strong>Iceland</strong><br>Blue Lagoon,<br>Gullfos Falls,<br>Reykjavik");
 brazil.bindPopup("<strong>Brazil</strong><br>Brasilia,<br>Ipanema Beach,<br>Rio de Janeiro");
 slovakia.bindPopup("<strong>Slovakia</strong><br>Bratislava");
 romania.bindPopup("<strong>Romania</strong><br>Bucharest");
 hungary.bindPopup("<strong>Hungary</strong><br>Budapest");
 denmark.bindPopup("<strong>Denmark</strong><br>Copenhagen");
-sicily.bindPopup("<strong>Sicily</strong><br>Catania,<br>Mount Etna,<br>Taormina");
 illinois.bindPopup("<strong>Illinois</strong><br>Chicago");
 moldova.bindPopup("<strong>Moldova</strong><br>Chisinau")
 ontario.bindPopup("<strong>Ontario</strong><br>Toronto,<br>Niagara Falls");
@@ -100,14 +117,14 @@ ireland.bindPopup("<strong>Ireland</strong><br>Dublin");
 switzerland.bindPopup("<strong>Switzerland</strong><br>Geneva");
 finland.bindPopup("<strong>Finland</strong><br>Helsinki");
 ukraine.bindPopup("<strong>Ukraine</strong><br>Kiev,<br>Chernobyl");
-poland.bindPopup("<strong>Poland</strong><br>Kraków,<br>Warsaw");
+poland.bindPopup("<strong>Poland</strong><br>Kraków,<br>Warsaw,<br>Poznan");
 slovenia.bindPopup("<strong>Slovenia</strong><br>Lake Bled,<br>Ljubljana");
 portugal.bindPopup("<strong>Portugal</strong><br>Lisbon");
 england.bindPopup("<strong>England</strong><br>London");
 luxembourg.bindPopup("<strong>Luxembourg</strong><br>Luxembourg City");
 sweden.bindPopup("<strong>Sweden</strong><br>Malmo,<br>Stockholm");
 morocco.bindPopup("<strong>Morocco</strong><br>Marrakesh");
-france.bindPopup("<strong>France</strong><br>Marseille,<br>Paris");
+france.bindPopup("<strong>France</strong><br>Marseille,<br>Paris,<br>Nice,<br>Lyon");
 bosnia.bindPopup("<strong>Bosnia</strong><br>Medjugorje,<br>Mostar");
 australia.bindPopup("<strong>Australia</strong><br>Melbourne,<br>Sydney");
 louisiana.bindPopup("<strong>Louisiana</strong><br>New Orleans");
@@ -121,3 +138,6 @@ malta.bindPopup("<strong>Malta</strong><br>Valletta");
 norway.bindPopup("<strong>Norway</strong><br>Oslo");
 lithuania.bindPopup("<strong>Lithuania</strong><br>Vilnius");
 czechRepublic.bindPopup("<strong>Czech Republic</strong><br>Prague");
+belgium.bindPopup("<strong>Belgium</strong><br>Brussels");
+monaco.bindPopup("<strong>Monaco</strong><br>Monte Carlo");
+estonia.bindPopup("<strong>Estonia</strong><br>Tallinn");

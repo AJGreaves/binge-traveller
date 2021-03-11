@@ -284,6 +284,10 @@ a:hover {
     width: 50px;
 }
 
+#footer ul {
+    padding: 0;
+}
+
 /* Form */
 
 label>span {

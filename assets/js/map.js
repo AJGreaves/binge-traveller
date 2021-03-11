@@ -71,7 +71,7 @@ california.bindPopup(
     Alcatraz,<br>
     San Francisco,<br>
     UC Berkeley,<br>
-    Los Angeles,,<br>
+    Los Angeles,<br>
     Santa Monica`
     ).openPopup();
 texas.bindPopup("<strong>Texas</strong><br>Austin,<br>Amarillo,<br>Dallas,<br>San Antonio");

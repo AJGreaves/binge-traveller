@@ -263,6 +263,12 @@ a:hover {
     width: 50px;
 }
 
+/* Form */
+
+label > span {
+    color: red;
+}
+
 /* Media queries */
 
 /* Mini devices (landscape phones, 400px and up) */

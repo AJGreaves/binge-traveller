@@ -126,6 +126,17 @@ a:hover {
     color: white;
 }
 
+.btn {
+    transition: all ease-in-out .3s;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 0px 0 0px rgba(0, 0, 0, 0.93);
+}
+
+.btn:hover {
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.93);
+}
+
 .btn-blue:hover {
     background-color: var(--blue-hover);
     color: white;

@@ -91,6 +91,16 @@ a:hover {
     color: #f58529
 }
 
+.spin-icon {
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+
+.spin-icon:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
 .mobile-social-icons .nav-social-media-icon {
     font-size: 3rem;
     margin: 1rem;
@@ -191,7 +201,7 @@ a:hover {
 
 #insta-pic-warsaw {
     background-image: url('../img/warsaw.jpg');
-    background-position: center 100% ;
+    background-position: center 100%;
 }
 
 #insta-pic-polish-airlines {
@@ -265,7 +275,7 @@ a:hover {
 
 /* Form */
 
-label > span {
+label>span {
     color: red;
 }
 

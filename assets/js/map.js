@@ -37,7 +37,7 @@ let ukraine = L.marker([48.3794, 31.1656]).addTo(mymap);
 let poland = L.marker([51.9194, 19.1451]).addTo(mymap);
 let slovenia = L.marker([46.1512, 14.9955]).addTo(mymap);
 let portugal = L.marker([39.3999, -8.2245]).addTo(mymap);
-let england = L.marker([52.3555, 1.1743]).addTo(mymap);
+let england = L.marker([52.3555, -1.1743]).addTo(mymap);
 let luxembourg = L.marker([49.8153, 6.1296]).addTo(mymap);
 let sweden = L.marker([60.1282, 18.6435]).addTo(mymap);
 let morocco = L.marker([31.7917, -7.0926]).addTo(mymap);
@@ -60,10 +60,18 @@ let monaco = L.marker([43.7384, 7.4246]).addTo(mymap);
 let estonia = L.marker([58.5953, 25.0136]).addTo(mymap);
 let massachusetts = L.marker([42.4072, -71.3824]).addTo(mymap);
 let newYork = L.marker([40.7128, -74.0060]).addTo(mymap);
+let isleOfMan = L.marker([54.2361, -4.5481]).addTo(mymap);
+let northernIreland = L.marker([54.7877, -6.4923]).addTo(mymap);
+let wales = L.marker([52.1307, -3.7837]).addTo(mymap);
+let scotland = L.marker([56.4907, -4.2026]).addTo(mymap);
 
 
 // popup contents
 
+scotland.bindPopup("<strong>Scotland</strong><br>Glasgow,<br>Edinburgh,<br>Dundee,<br>Aberdeen");
+wales.bindPopup("<strong>Wales</strong><br>Swansea,<br>Cardiff");
+northernIreland.bindPopup("<strong>Northern Ireland</strong><br>Belfast,<br>Derry");
+isleOfMan.bindPopup("<strong>Isle Of Man</strong><br>Douglas,<br>Peel,<br>Ramsey,<br>Castletown");
 newYork.bindPopup("<strong>New York</strong><br>New York City");
 massachusetts.bindPopup("<strong>Massachusetts</strong><br>Boston");
 california.bindPopup(
@@ -83,7 +91,6 @@ italy.bindPopup(
     Naples,<br>
     Milan,<br>
     Mount Versuvius,<br>
-    Naples,<br>
     Pisa,<br>
     Pompeii,<br>
     Rome,<br>
@@ -120,7 +127,7 @@ ukraine.bindPopup("<strong>Ukraine</strong><br>Kiev,<br>Chernobyl");
 poland.bindPopup("<strong>Poland</strong><br>Kraków,<br>Warsaw,<br>Poznan");
 slovenia.bindPopup("<strong>Slovenia</strong><br>Lake Bled,<br>Ljubljana");
 portugal.bindPopup("<strong>Portugal</strong><br>Lisbon");
-england.bindPopup("<strong>England</strong><br>London");
+england.bindPopup("<strong>England</strong><br>London,<br>Newcastle,<br>Liverpool,<br>Manchester,<br>Bristol,<br>Birmingham");
 luxembourg.bindPopup("<strong>Luxembourg</strong><br>Luxembourg City");
 sweden.bindPopup("<strong>Sweden</strong><br>Malmo,<br>Stockholm");
 morocco.bindPopup("<strong>Morocco</strong><br>Marrakesh");

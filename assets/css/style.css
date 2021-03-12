@@ -53,6 +53,10 @@ a:hover {
     text-decoration: none;
 }
 
+.map-section a {
+    color: white;
+}
+
 /* logos and icons */
 
 #nav-logo {

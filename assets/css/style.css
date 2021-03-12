@@ -171,6 +171,7 @@ a:hover {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #hero-about {
@@ -179,6 +180,7 @@ a:hover {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .sea-bg {
@@ -186,6 +188,7 @@ a:hover {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #sea-overlay {

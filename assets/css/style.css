@@ -17,6 +17,10 @@ body {
     padding: .7rem 1rem;
 }
 
+.about-header-wrapper {
+    margin-top: 15%;
+}
+
 /* margins */
 .mr-2 {
     margin-left: 2rem;

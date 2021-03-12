@@ -118,7 +118,9 @@ southAfrica.bindPopup(
     Lion Park,<br>
     Pretoria,<br>
     Soweto,<br>
-    Capetown`
+    Capetown,<br>
+    Sun City,<br>
+    Pilanesberg National Park`
     );
 ireland.bindPopup("<strong>Ireland</strong><br>Dublin");
 switzerland.bindPopup("<strong>Switzerland</strong><br>Geneva");

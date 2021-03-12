@@ -57,6 +57,10 @@ a:hover {
     color: white;
 }
 
+.blue-text {
+    color: var(--blue);
+}
+
 /* logos and icons */
 
 #nav-logo {
@@ -169,6 +173,14 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+#hero-about {
+    background-image: url('../img/delphi.jpg');
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .sea-bg {
     background-image: url('../img/sea.jpg');
     background-position: center center;
@@ -261,6 +273,16 @@ a:hover {
 
 #map {
     height: 80vh;
+}
+
+/* About me page */
+
+#about-me p {
+    font-size: 1.3rem;
+}
+
+#about-me img {
+    max-width: 100%;
 }
 
 /* Footer */

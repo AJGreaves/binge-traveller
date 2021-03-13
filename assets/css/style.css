@@ -58,7 +58,7 @@ a:hover {
 }
 
 .map-section a {
-    color: white;
+    color: var(--blue);
 }
 
 .blue-text {
@@ -195,9 +195,23 @@ a:hover {
     background-attachment: fixed;
 }
 
+.mountain-bg {
+    background-image: url('../img/delphi.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #sea-overlay {
     height: 100%;
     background-color: rgba(150, 185, 241, 0.7);
+    padding-bottom: 3rem;
+}
+
+#mountain-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
     padding-bottom: 3rem;
 }
 

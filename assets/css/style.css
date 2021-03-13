@@ -171,7 +171,7 @@ a:hover {
 
 #hero-home {
     background-image: url('../img/hero.jpg');
-    background-position: center 80%;
+    background-position: center center;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ a:hover {
 }
 
 #hero-about {
-    background-image: url('../img/delphi.jpg');
+    background-image: url('../img/seapic.jpg');
     background-position: center center;
     height: 100vh;
     background-size: cover;
@@ -199,6 +199,11 @@ a:hover {
     height: 100%;
     background-color: rgba(150, 185, 241, 0.7);
     padding-bottom: 3rem;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
 }
 
 .insta-row {
@@ -393,3 +398,11 @@ label>span {
         margin-top: 7%;
     }
 }
+
+
+/* for debugging layout issues
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+} */

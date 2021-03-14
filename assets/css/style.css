@@ -447,10 +447,10 @@ label>span {
     }
 }
 
-
-/* for debugging layout issues
-* {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-} */
+/* For short screens like iPhone5/SE */
+@media screen and (max-height: 580px) {
+    /* Fixes social icons overlaying text on home page */
+    .social-icons-wrapper {
+        position: relative;
+    }
+}

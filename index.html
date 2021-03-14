@@ -29,7 +29,7 @@
 
 <body>
     <!-- hero image header -->
-    <header id="hero-home" class="hero-img p-0">
+    <header id="hero-home" class="hero p-0">
         <div class="dark-overlay container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -51,7 +51,10 @@
                                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About Mike</a>
+                                        <a class="nav-link" href="about.html">About Me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
                                     </li>
                                     <li class="nav-social-media-icon ms-auto d-none d-sm-block">
                                         <a href="https://www.instagram.com/bingetraveller_mike" rel="noopener"
@@ -136,7 +139,7 @@
     </section>
 
     <!-- video collage section -->
-    <div class="hero-img sea-bg">
+    <div class="hero sea-bg">
         <div id="sea-overlay">
             <div class="container">
                 <div class="row text-center">
@@ -214,61 +217,6 @@
                                 src="https://my.flightmemory.com/image/N272WA.gif"></a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Form section -->
-    <div class="container my-5">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <h2 class="display-4 mb-4 text-center">Get in touch with me!</h2>
-            </div>
-            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-                <!--
-                    Form sends data to email js. name attribute values must match *exactly* the
-                    template variable names in curly brackets in the email js template 
-                    https://dashboard.emailjs.com/admin/templates/4sdxx4l
-                    
-                    for example: 
-                    in HTML
-                    name="f_name"
-                    in emailjs template
-                    {{f_name}}
-                -->
-                <form id="contact-form">
-                    <div class="row g-3">
-                        <div class="col-12 col-md-6">
-                            <label for="f_name" class="form-label">First Name <span>*</span></label>
-                            <input type="text" class="form-control" id="f_name" name="f_name" required>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <label for="l_name" class="form-label">Last Name <span>*</span></label>
-                            <input type="text" class="form-control" id="l_name" name="l_name" required>
-                        </div>
-                        <div class="col-12">
-                            <label for="email" class="form-label">Email <span>*</span></label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                name="email" required>
-                            <div id="emailHelp" class="form-text">I will never share your email with anyone else.</div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <label for="handle" class="form-label">Social Media Handle</label>
-                            <input type="text" class="form-control" id="handle" name="handle"
-                                aria-describedby="socialHelp">
-                            <div id="socialHelp" class="form-text">Instagram or Facebook</div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <label for="country" class="form-label">Country/Location</label>
-                            <input type="text" class="form-control" id="country" name="country">
-                        </div>
-                        <div class="col-12">
-                            <label for="message" class="form-label">Message <span>*</span></label>
-                            <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary mt-4">Submit</button>
-                </form>
             </div>
         </div>
     </div>

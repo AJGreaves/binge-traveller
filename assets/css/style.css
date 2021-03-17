@@ -387,6 +387,16 @@ label>span {
     color: red;
 }
 
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px;
+}
+
+#mc-embedded-subscribe {
+    margin: 20px 0;
+}
+
 /* Media queries */
 
 /* Mini devices (landscape phones, 400px and up) */

@@ -30,15 +30,15 @@
     <title>Binge Traveller</title>
 </head>
 
-<body id="blog-post">
+<body>
     <!-- hero image header -->
-    <header class="p-0">
-        <div class="container-fluid">
+    <header id="hero-blog" class="p-0 hero text-white">
+        <div class="dark-overlay container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12">
 
                     <!-- initial navigation -->
-                    <nav id="initial-navbar" class="navbar navbar-expand-sm navbar-light">
+                    <nav id="initial-navbar" class="navbar navbar-expand-sm navbar-dark">
                         <div class="container-fluid p-0">
                             <a class="navbar-brand" href="../" id="navbar-brand">
                                 <img src="../assets/img/BT-icon.png" id="nav-logo">Binge<br>Traveller
@@ -51,23 +51,16 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mb-2 mb-lg-0 w-100">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                        <a class="nav-link" href="../index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="../about.html">About Me</a>
+                                        <a class="nav-link" href="about.html">About Me</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="../contact.html">Contact</a>
+                                        <a class="nav-link" href="contact.html">Contact</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Blog
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Blog post 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Blog post 1</a></li>
-                                        </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
                                     </li>
                                     <li class="nav-social-media-icon ms-auto d-none d-sm-block">
                                         <a href="https://www.instagram.com/bingetraveller_mike" rel="noopener"
@@ -94,84 +87,54 @@
                     </nav>
                 </div>
                 <div class="col-12 col-lg-11 text-center text-bold">
-                    <!-- Blog post title here -->
-                    <h1 id="main-heading" class="display-1 my-5">Blog post title</h1>
-                    <!-- Add the where, when, how info here-->
-                    <p id="tagline" class="blog-post-deets"><i class="fas fa-globe"></i> Location info <i class="far fa-calendar-alt"></i> 01/01/01 <i class="fas fa-plane"></i> Flight info</p>
-                </div>
-            </div>
-            <!-- Top 3 images row -->
-            <div class="row blog-images-row">
-                <div class="col-6 col-md-4">
-                    <!-- 
-                        Add image file to img folder, then add the file path to it here.
-                        Don't forget to add a description of the image to the alt attribute
-                        Repeat for all 3 images in this row
-                    -->
-                    <img src="../assets/img/greece.jpg" alt="Description of image here">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="../assets/img/helsinki.png" alt="Description of image here">
-                </div>
-                <!-- Third image hidden on small screens for responsive design -->
-                <div class="col-md-4 d-none d-md-block">
-                    <img src="../assets/img/mostar.jpg" alt="Description of image here">
-                </div>
-            </div>
-
-            <!-- Blog text content -->
-            <div class="row">
-                <div class="col-12">
-                    <!-- First sub heading (level 2 after blog title in header)-->
-                    <div class="h2 blue-text display-5 mt-4 mb-2">Blog level 2 sub heading</div>
-
-                    <!-- Paragraphs of content, repeat for as many as you need -->
-                    <p>First paragraph of content here. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestiae cumque dicta, officia nemo ducimus earum at corrupti illo voluptas similique mollitia
-                        ullam nesciunt, unde labore dolores soluta asperiores! Quos, ipsum!</p>
-
-                    <p>Second paragraph of content here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-                        a illum laudantium nulla temporibus nihil? Dignissimos voluptas numquam deserunt dolore
-                        recusandae corporis neque nihil eaque autem. Non eaque velit quo! Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Est aut maiores sit
-                        facere natus exercitationem, molestiae aperiam. Perferendis, cum! Molestiae vero nihil beatae
-                        dignissimos fuga exercitationem dolore numquam. Quasi, omnis!</p>
-
-                    <!-- If you want additional sub headings in your post, use the level 3 version here -->
-                    <div class="h3 blue-text display-6 mt-4 mb-2">Blog level 3 sub heading</div>
-                    <p>Third paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est aut maiores sit
-                        facere natus exercitationem, molestiae aperiam. Perferendis, cum! Molestiae vero nihil beatae
-                        dignissimos fuga exercitationem dolore numquam. Quasi, omnis! Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Est aut maiores sit
-                        facere natus exercitationem, molestiae aperiam. Perferendis, cum! Molestiae vero nihil beatae
-                        dignissimos fuga exercitationem dolore numquam. Quasi, omnis!</p>
-                    <p>More paragraph content here. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestiae cumque dicta, officia nemo ducimus earum at corrupti illo voluptas similique mollitia
-                        ullam nesciunt, unde labore dolores soluta asperiores! Quos, ipsum!</p>
-
-                </div>
-            </div>
-
-            <!-- bottom 3 images row -->
-            <div class="row blog-images-row mb-4">
-                <div class="col-6 col-md-4">
-                    <!-- 
-                        Add image file to img folder, then add the file path to it here.
-                        Don't forget to add a description of the image to the alt attribute
-                        Repeat for all 3 images in this row
-                    -->
-                    <img src="../assets/img/warsaw2.png" alt="Description of image here">
-                </div>
-                <div class="col-6 col-md-4">
-                    <img src="../assets/img/seapic.jpg" alt="Description of image here">
-                </div>
-                <!-- Third image hidden on small screens for responsive design -->
-                <div class="col-md-4 d-none d-md-block">
-                    <img src="../assets/img/warsaw.jpg" alt="Description of image here">
+                    <h1 id="main-blog-pg-heading" class="display-1">Binge Traveller Blog</h1>
+                    <p id="tagline" class="display-3">All my adventures, in one place</p>
+                    <div class="social-icons-wrapper">
+                        <div class="mobile-social-icons">
+                            <div class="nav-social-media-icon d-inline-block d-sm-none">
+                                <a href="https://www.instagram.com/bingetraveller_mike" rel="noopener"
+                                    target="_blank" aria-label="Visit my Instagram (opens in a new tab)">
+                                    <i class="fab fa-instagram-square spin-icon"></i>
+                                </a>
+                            </div>
+                            <div class="nav-social-media-icon d-inline-block d-sm-none">
+                                <a href="https://www.youtube.com/channel/UCjTj7FgAlLtYNM4mL3kmgvQ" rel="noopener"
+                                    target="_blank" aria-label="Visit my YouTube Channel (opens in a new tab)">
+                                    <i class="fab fa-youtube-square spin-icon"></i>
+                                </a>
+                            </div>
+                            <div class="nav-social-media-icon d-inline-block d-sm-none">
+                                <a href="https://www.facebook.com/MikeBingeTraveller" rel="noopener" target="_blank"
+                                    aria-label="Visit my Facebook page (opens in a new tab)">
+                                    <i class="fab fa-facebook-square spin-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="down-chevron d-none d-sm-block">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="display-4">Click a title to read more!</h2>
+                <ul id="blog-post-list">
+                    <li>
+                        <a href="#">02 - Next blog post title here</a>
+                    </li>
+                    <li>
+                        <a href="blog/01-adventures-in-moldova.html">01 - Adventures in Moldova</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 
     <footer id="footer">
         <ul class="mb-2 mb-lg-0 w-100">

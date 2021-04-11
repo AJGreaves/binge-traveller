@@ -226,6 +226,10 @@ a:hover {
     background-image: url('../img/seaside.jpg');
 }
 
+#hero-blog {
+    background-image: url('../img/seaside.jpg');
+}
+
 .sea-bg {
     background-image: url('../img/sea.jpg');
 }
@@ -359,6 +363,15 @@ a:hover {
 }
 
 /* Blog post pages */
+
+#main-blog-pg-heading {
+    margin-top: 15%;
+    margin-bottom: 2rem;;
+}
+
+#blog-post-list > li {
+    font-size: 2rem;
+}
 
 .blog-post-deets > i {
     color: var(--blue);

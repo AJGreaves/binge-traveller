@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <!-- Bootstrap 5 css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Font awesome 5 css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- leaflet.js css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <!-- Mailchimp css -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Binge Traveller</title>
+</head>
+
+<body id="blog-post">
+    <!-- hero image header -->
+    <header class="p-0">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12">
+
+                    <!-- initial navigation -->
+                    <nav id="initial-navbar" class="navbar navbar-expand-sm navbar-light">
+                        <div class="container-fluid p-0">
+                            <a class="navbar-brand" href="../" id="navbar-brand">
+                                <img src="../assets/img/BT-icon.png" id="nav-logo">Binge<br>Traveller
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0 w-100">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../about.html">About Me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../contact.html">Contact</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Blog post 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog post 1</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-social-media-icon ms-auto d-none d-sm-block">
+                                        <a href="https://www.instagram.com/bingetraveller_mike" rel="noopener"
+                                            target="_blank" aria-label="Visit my Instagram (opens in a new tab)">
+                                            <i class="fab fa-instagram-square spin-icon"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-social-media-icon d-none d-sm-block">
+                                        <a href="https://www.youtube.com/channel/UCjTj7FgAlLtYNM4mL3kmgvQ"
+                                            rel="noopener" target="_blank"
+                                            aria-label="Visit my YouTube Channel (opens in a new tab)">
+                                            <i class="fab fa-youtube-square spin-icon"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-social-media-icon d-none d-sm-block">
+                                        <a href="https://www.facebook.com/MikeBingeTraveller" rel="noopener"
+                                            target="_blank" aria-label="Visit my Facebook page (opens in a new tab)">
+                                            <i class="fab fa-facebook-square spin-icon"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-11 text-center text-bold">
+                    <!-- Blog post title here -->
+                    <h1 id="main-heading" class="display-1 my-5">Blog post title</h1>
+                    <!-- Add the where, when, how info here-->
+                    <p id="tagline" class="blog-post-deets"><i class="fas fa-globe"></i> Location info <i class="far fa-calendar-alt"></i> 01/01/01 <i class="fas fa-plane"></i> Flight info</p>
+                </div>
+            </div>
+            <!-- Top 3 images row -->
+            <div class="row blog-images-row">
+                <div class="col-6 col-md-4">
+                    <!-- 
+                        Add image file to img folder, then add the file path to it here.
+                        Don't forget to add a description of the image to the alt attribute
+                        Repeat for all 3 images in this row
+                    -->
+                    <img src="../assets/img/greece.jpg" alt="Description of image here">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="../assets/img/helsinki.png" alt="Description of image here">
+                </div>
+                <!-- Third image hidden on small screens for responsive design -->
+                <div class="col-md-4 d-none d-md-block">
+                    <img src="../assets/img/mostar.jpg" alt="Description of image here">
+                </div>
+            </div>
+
+            <!-- Blog text content -->
+            <div class="row">
+                <div class="col-12">
+                    <!-- First sub heading (level 2 after blog title in header)-->
+                    <div class="h2 blue-text display-5 mt-4 mb-2">Blog level 2 sub heading</div>
+
+                    <!-- Paragraphs of content, repeat for as many as you need -->
+                    <p>First paragraph of content here. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestiae cumque dicta, officia nemo ducimus earum at corrupti illo voluptas similique mollitia
+                        ullam nesciunt, unde labore dolores soluta asperiores! Quos, ipsum!</p>
+
+                    <p>Second paragraph of content here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                        a illum laudantium nulla temporibus nihil? Dignissimos voluptas numquam deserunt dolore
+                        recusandae corporis neque nihil eaque autem. Non eaque velit quo! Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Est aut maiores sit
+                        facere natus exercitationem, molestiae aperiam. Perferendis, cum! Molestiae vero nihil beatae
+                        dignissimos fuga exercitationem dolore numquam. Quasi, omnis!</p>
+
+                    <!-- If you want additional sub headings in your post, use the level 3 version here -->
+                    <div class="h3 blue-text display-6 mt-4 mb-2">Blog level 3 sub heading</div>
+                    <p>Third paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est aut maiores sit
+                        facere natus exercitationem, molestiae aperiam. Perferendis, cum! Molestiae vero nihil beatae
+                        dignissimos fuga exercitationem dolore numquam. Quasi, omnis! Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Est aut maiores sit
+                        facere natus exercitationem, molestiae aperiam. Perferendis, cum! Molestiae vero nihil beatae
+                        dignissimos fuga exercitationem dolore numquam. Quasi, omnis!</p>
+                    <p>More paragraph content here. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestiae cumque dicta, officia nemo ducimus earum at corrupti illo voluptas similique mollitia
+                        ullam nesciunt, unde labore dolores soluta asperiores! Quos, ipsum!</p>
+
+                </div>
+            </div>
+
+            <!-- bottom 3 images row -->
+            <div class="row blog-images-row mb-4">
+                <div class="col-6 col-md-4">
+                    <!-- 
+                        Add image file to img folder, then add the file path to it here.
+                        Don't forget to add a description of the image to the alt attribute
+                        Repeat for all 3 images in this row
+                    -->
+                    <img src="../assets/img/warsaw2.png" alt="Description of image here">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="../assets/img/seapic.jpg" alt="Description of image here">
+                </div>
+                <!-- Third image hidden on small screens for responsive design -->
+                <div class="col-md-4 d-none d-md-block">
+                    <img src="../assets/img/warsaw.jpg" alt="Description of image here">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer id="footer">
+        <ul class="mb-2 mb-lg-0 w-100">
+            <h3 class="display-5">Follow me</h3>
+            <li class="nav-social-media-icon">
+                <a href="https://www.instagram.com/bingetraveller_mike" rel="noopener" target="_blank"
+                    aria-label="Visit my Instagram (opens in a new tab)">
+                    <i class="fab fa-instagram-square spin-icon"></i>
+                </a>
+            </li>
+            <li class="nav-social-media-icon">
+                <a href="https://www.youtube.com/channel/UCjTj7FgAlLtYNM4mL3kmgvQ" rel="noopener" target="_blank"
+                    aria-label="Visit my YouTube Channel (opens in a new tab)">
+                    <i class="fab fa-youtube-square spin-icon"></i>
+                </a>
+            </li>
+            <li class="nav-social-media-icon">
+                <a href="https://www.facebook.com/MikeBingeTraveller" rel="noopener" target="_blank"
+                    aria-label="Visit my Facebook page (opens in a new tab)">
+                    <i class="fab fa-facebook-square spin-icon"></i>
+                </a>
+            </li>
+        </ul>
+        <hr>
+        Website created by <strong><a href="#" target="_blank" rel="noopener">inSiteful</a></strong>
+
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
